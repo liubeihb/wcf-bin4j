@@ -70,7 +70,7 @@ public class HttpUtil {
 			    });
 			}
 		} catch (Exception e) {
-			Logger.getLogger("com.rockontrol.error").error(e);
+			Logger.getLogger("wcf4j.error").error(e);
 			connection= null;
 		}
 	}
@@ -173,7 +173,7 @@ public class HttpUtil {
 		try {
 			connection.setRequestMethod(method);
 		} catch (ProtocolException e) {
-			Logger.getLogger("com.rockontrol.error").error(e);
+			Logger.getLogger("wcf4j.error").error(e);
 			return null;
 		}
 		return this;
