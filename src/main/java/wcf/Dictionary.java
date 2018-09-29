@@ -17,7 +17,9 @@ import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.google.gson.stream.JsonToken;
 import com.google.gson.stream.JsonWriter;
-
+/**
+* 加载字典
+*/
 public class Dictionary {
 	private static Map<Integer,String> DICT;
 	static{
